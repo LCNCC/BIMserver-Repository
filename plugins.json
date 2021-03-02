@@ -1,165 +1,193 @@
 {
-  "plugins": [{
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "binaryserializers"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "ifcopenshellplugin"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "javamodelchecker"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "javaqueryengine"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "mergers"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "collada"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "citygml"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "clashdetection"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "charting"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bimviews"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bimsurfer"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bimserverapi"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "ifcplugins"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "demoplugins"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bimql"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "cesiumloader"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "gltf"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "ifcvalidator"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "console"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "ifcanalyses"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bresaer"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "oauthclienttest"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "threejsplugin"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "ifcanalytics"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bcfaggregation"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "fixedfileservice"
-    }
-  }, {
-    "maven": {
-      "defaultrepository": "http://central.maven.org/maven2",
-      "groupId": "org.opensourcebim",
-      "artifactId": "bimsurfer3"
-    }
-  }]
+   "plugins":[
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"binaryserializers"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"ifcopenshellplugin"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"javamodelchecker"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"javaqueryengine"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"mergers"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"collada"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"citygml"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"clashdetection"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"charting"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bimviews"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bimsurfer"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bimserverapi"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"ifcplugins"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"demoplugins"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bimql"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"cesiumloader"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"gltf"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"ifcvalidator"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"console"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"ifcanalyses"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bresaer"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"oauthclienttest"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"threejsplugin"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"ifcanalytics"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bcfaggregation"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"fixedfileservice"
+         }
+      },
+      {
+         "maven":{
+            "defaultrepository":"https://repo.maven.apache.org/maven2/org",
+            "groupId":"opensourcebim",
+            "artifactId":"bimsurfer3"
+         }
+      }
+   ]
 }
